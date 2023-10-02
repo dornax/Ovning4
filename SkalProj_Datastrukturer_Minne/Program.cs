@@ -91,14 +91,14 @@ namespace SkalProj_Datastrukturer_Minne
 
             /*
              * 2. När ökar listans kapacitet?
-             *    När antalet element är 1 större än %4 av antalet.
+             *    När count är lika med capacity och man lägger till ett element.
              * 
              * 3. Med hur mycket ökar kapaciteten?
              *    Med 4 element.
              * 
              * 4. Varför ökar inte listans kapacitet i samma takt som element läggs till?
              *    Eftersom listans underliggande array kopieras till en ny array när 
-             *    listans kapacitet ökas. 
+             *    listans kapacitet ökas ned 4. 
              * 
              * 5. Minskar kapaciteten när element tas bort ur listan? 
              *    Nej
